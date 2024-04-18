@@ -14,6 +14,9 @@ jobs:
       - run:
           name: Check Formatting
           command: npx prettier --check "src/**/*.js"
+      - run:
+          name: Run Lint Check
+          command: npx eslint "src/**/*.{js,jsx}" --fix
 
 workflows:
   version: 2
