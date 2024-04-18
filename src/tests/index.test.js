@@ -7,5 +7,5 @@ test('basic arithmetic 2', () => {
 });
 
 test('basic arithmetic 2', () => {
-    expect(2 / 2).toBe(1);
+    expect(2 / 2).toBe(0);
 });
